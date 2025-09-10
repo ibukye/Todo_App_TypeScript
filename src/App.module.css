@@ -1,0 +1,38 @@
+.todo-container {
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.todo-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+}
+
+
+.todo-button {
+    padding: 10px 16px;
+    background: #4cafef;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* ホバー時 */
+.todo-button:hover {
+    background: #3a9ad9;
+}
+
+/* input formを画面下部に固定 */
+.input-form {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 12px;
+    background: #fff;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+}

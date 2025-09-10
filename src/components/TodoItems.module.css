@@ -1,0 +1,21 @@
+.todo-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;              /* 要素間の隙間 */
+}
+
+.todo-item p {
+    display: flex;
+    align-items: center;
+    margin: 0;      /* デフォルトのマージンを消す */
+}
+
+.lineThrough {
+    text-decoration: line-through;
+}
+
+.todo-item.completed p {
+    text-decoration: line-through;
+    color: #aaa;
+}
