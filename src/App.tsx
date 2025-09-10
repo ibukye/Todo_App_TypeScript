@@ -14,8 +14,8 @@ export type Todo = {
 const fetchTodos = (): Promise<Todo[]> => {
   // TODO: mockTodosを作成 (リストは[])
   const mockTodos: Todo[] = [
-    { id: 1, text: 'Sansanフォーム記入', completed: false },
-    { id: 2, text: 'エキサイトフォーム入力', completed: false },
+    { id: 1, text: '植物に水をやる', completed: false },
+    { id: 2, text: 'バスケの試合', completed: true },
     { id: 3, text: '塾', completed: false },
   ];
 
